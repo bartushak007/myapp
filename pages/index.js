@@ -2,10 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
-
+import "../static/styles/main.scss";
 const Home = () => (
   <div>
     <Head title="Home" />
+    <Link href="x"><a>123456789</a></Link>
     <Nav />
 
     <div className="hero">
